@@ -1,0 +1,41 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+ 
+#btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+}
+
+#btn {
+  padding: 12px 24px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  background-color: #0077b6;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: opacity 0.3s, background-color 0.3s;
+  
+}
+
+#btn:hover {
+  opacity: 1;
+  background-color: #457b9d;
+}
+
+#foodCount {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  background-color: black;
+  color: red;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* margin-bottom: 30px; */
+}
